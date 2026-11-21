@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Maggi Bowl -->
+  <path d="M12 28C12 44 20 54 32 54C44 54 52 44 52 28H12Z" fill="url(#bowlGrad)" stroke="#1E293B" stroke-width="2"/>
+  <ellipse cx="32" cy="28" rx="20" ry="5" fill="#DC2626" stroke="#991B1B" stroke-width="1.5"/>
+  <ellipse cx="32" cy="28" rx="18" ry="4" fill="#F59E0B"/>
+  <!-- Curly Maggi noodles -->
+  <path d="M18 26C20 22 22 30 24 24C26 29 28 22 30 27C32 23 34 30 36 24C38 29 40 23 42 27C44 24 46 29 48 26" stroke="#FDE047" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M22 29C24 26 26 31 28 27C30 30 32 25 34 29C36 27 38 31 40 28" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Peas & Carrot bits -->
+  <circle cx="25" cy="27" r="1.5" fill="#15803D"/>
+  <circle cx="38" cy="27" r="1.5" fill="#15803D"/>
+  <rect x="31" y="26" width="2" height="2" fill="#EA580C" rx="0.5"/>
+  <!-- Fork lifting noodles -->
+  <path d="M42 6L40 22" stroke="#94A3B8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M38 18L42 18" stroke="#94A3B8" stroke-width="2"/>
+  <path d="M37 22C39 25 43 25 45 22" stroke="#FDE047" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Steam -->
+  <path d="M22 14C22 10 24 8 22 5" stroke="#EA580C" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+  <path d="M30 12C30 8 32 6 30 3" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+  <defs>
+    <linearGradient id="bowlGrad" x1="12" y1="28" x2="52" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+  </defs>
+</svg>

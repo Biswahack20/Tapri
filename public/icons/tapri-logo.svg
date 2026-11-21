@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Outer Badge Ring -->
+  <circle cx="60" cy="60" r="54" fill="#9A3412" stroke="#FDE68A" stroke-width="3"/>
+  <circle cx="60" cy="60" r="48" fill="#451A03" stroke="#D97706" stroke-width="2"/>
+  <!-- Circular Decorative Dots -->
+  <circle cx="60" cy="10" r="2" fill="#FDE68A"/>
+  <circle cx="60" cy="110" r="2" fill="#FDE68A"/>
+  <circle cx="10" cy="60" r="2" fill="#FDE68A"/>
+  <circle cx="110" cy="60" r="2" fill="#FDE68A"/>
+  <!-- Cutting Glass Artwork in Center -->
+  <!-- Steam -->
+  <path d="M54 36C54 30 57 28 54 22" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+  <path d="M62 34C62 27 65 25 62 19" stroke="#EA580C" stroke-width="3" stroke-linecap="round" opacity="0.95"/>
+  <path d="M70 36C70 30 73 28 70 22" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+  <!-- Glass Rim -->
+  <ellipse cx="62" cy="44" rx="22" ry="5" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2"/>
+  <!-- Tea surface -->
+  <ellipse cx="62" cy="49" rx="19" ry="4" fill="#D97706"/>
+  <!-- Glass Taper -->
+  <path d="M40 44L47 88C48 92 51 94 56 94H68C73 94 76 92 77 88L84 44" fill="#B45309" stroke="#E2E8F0" stroke-width="2"/>
+  <!-- Ribs -->
+  <line x1="51" y1="52" x2="54" y2="86" stroke="#FEF3C7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <line x1="62" y1="52" x2="62" y2="90" stroke="#FEF3C7" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="73" y1="52" x2="70" y2="86" stroke="#FEF3C7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Badge Ribbon / Banner -->
+  <path d="M22 96L60 102L98 96L92 108L60 112L28 108L22 96Z" fill="#C2410C" stroke="#FDE68A" stroke-width="1.5"/>
+  <text x="60" y="107" font-family="sans-serif" font-size="8" font-weight="900" fill="#FEF3C7" text-anchor="middle" letter-spacing="1.5">KADAK CHAI</text>
+</svg>

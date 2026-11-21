@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Steam -->
+  <path d="M28 10C28 6 30 4 28 1" stroke="#F97316" stroke-width="2" stroke-linecap="round"/>
+  <path d="M36 10C36 6 38 4 36 1" stroke="#EA580C" stroke-width="2" stroke-linecap="round"/>
+  <!-- Kulhad Clay Body -->
+  <ellipse cx="32" cy="16" rx="18" ry="4" fill="#9A3412" stroke="#7C2D12" stroke-width="2"/>
+  <ellipse cx="32" cy="18" rx="16" ry="3" fill="#D97706"/>
+  <!-- Textured Clay Belly -->
+  <path d="M14 16C13 28 16 42 22 56C23 58 26 59 32 59C38 59 41 58 42 56C48 42 51 28 50 16" fill="url(#clayGrad)" stroke="#7C2D12" stroke-width="2"/>
+  <!-- Handmade Clay Grooves -->
+  <path d="M17 28C22 31 42 31 47 28" stroke="#7C2D12" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M19 38C24 41 40 41 45 38" stroke="#7C2D12" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M21 47C26 50 38 50 43 47" stroke="#7C2D12" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <defs>
+    <linearGradient id="clayGrad" x1="14" y1="16" x2="50" y2="59" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C2410C"/>
+      <stop offset="50%" stop-color="#9A3412"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+  </defs>
+</svg>

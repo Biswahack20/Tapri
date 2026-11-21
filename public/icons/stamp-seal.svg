@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Vintage Serrated Stamp Outer Contour -->
+  <path d="M32 3L36 6L41 4L44 8L49 8L50 13L55 15L54 20L58 24L56 29L59 34L55 38L57 43L52 46L52 51L47 52L45 57L40 56L37 60L32 58L27 60L24 56L19 57L17 52L12 51L12 46L7 43L9 38L5 34L8 29L6 24L10 20L9 15L14 13L15 8L20 8L23 4L28 6L32 3Z" fill="#FEF3C7" stroke="#9A3412" stroke-width="2.5"/>
+  <!-- Inner Ring -->
+  <circle cx="32" cy="32" r="21" fill="#C2410C" stroke="#FEF3C7" stroke-width="2"/>
+  <circle cx="32" cy="32" r="17" fill="none" stroke="#FDE68A" stroke-width="1" stroke-dasharray="2 2"/>
+  <!-- Center Chai Cup Symbol -->
+  <path d="M25 28H39L37 40C37 42 35 43 32 43C29 43 27 42 27 40L25 28Z" fill="#FDE68A"/>
+  <!-- Steam -->
+  <path d="M29 24C29 22 31 21 30 19" stroke="#FEF3C7" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M34 24C34 22 36 21 35 19" stroke="#FEF3C7" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Rating Stars -->
+  <polygon points="32,8 33,10 35,10 33.5,11.5 34,13.5 32,12 30,13.5 30.5,11.5 29,10 31,10" fill="#F59E0B"/>
+</svg>
