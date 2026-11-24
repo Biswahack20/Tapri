@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-plus-jakarta);
+  color: #1A232E;
+  -webkit-tap-highlight-color: transparent;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+/* Ensure tabular-nums on all numbers, currencies, and codes */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Touch target minimums for counter and mobile fast-use */
+button, input, select, textarea {
+  touch-action: manipulation;
+}
+
+/* Frosted Glass Utilities */
+.glass-panel {
+  background: rgba(250, 246, 240, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 9999px;
+}
+
+/* Radiant Orange Glow Button */
+.btn-orange-glow {
+  background: linear-gradient(135deg, #FF6B00 0%, #FFA000 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 16px 0 rgba(255, 107, 0, 0.35);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-orange-glow:hover {
+  background: linear-gradient(135deg, #FF7711 0%, #FFA811 100%);
+  box-shadow: 0 6px 24px 0 rgba(255, 107, 0, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn-orange-glow:active {
+  transform: scale(0.97);
+}
+
+/* Hide scrollbars cleanly */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
